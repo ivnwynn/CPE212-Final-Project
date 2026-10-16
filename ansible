@@ -1,0 +1,12 @@
+---
+- name: Ensure deployment directory exists on remote hosts
+  ansible.builtin.file:
+    path: /opt/portfolio-app
+    state: directory
+    mode: '0755'
+
+- name: Copy Dockerfile to remote hosts
+  ansible.builtin.copy:
+    src: ../Dockerfile
+    dest: /opt/portfolio-app/Dockerfile
+    mode: '0644'
