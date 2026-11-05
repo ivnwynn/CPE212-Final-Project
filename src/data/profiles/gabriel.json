@@ -2,21 +2,32 @@
   "id": "gabriel",
   "order": 3,
   "name": "Gabriel",
-  "role": "Your role here",
-  "bio": "Short bio here.",
+  "role": "Developer",
+  "bio": "aspiring network engineer / cybersecurity",
   "photo": "/photos/sid.jpg",
   "hoa": {
     "prelim": [
-      { "title": "HOA 1", "summary": "What you did.", "file": "prelim-hoa1.pdf" },
-      { "title": "HOA 2", "summary": "What you did.", "file": "prelim-hoa2.pdf" }
+      { "title": "Duenas_Hands-on Activity 1.1", "summary": "Creating Virtual Machines.", "file": "Duenas_Hands-on Activity 1.1: Creating Virtual Machines .pdf" },
+      { "title": "Duenas_Hands-on Activity 2.1", "summary": "SSH Key-Based Authentication and GIT Setup", "file": "Duenas_Hands-on Activity 2.1: SSH Key-Based Authentication and GIT Setup.pdf" },
+      { "title": "Duenas_Hands-On Activity 3", "summary": "Install SSH server on CentOS or RHEL 8", "file": "Duenas_Hands-On Activity 3: Install SSH server on CentOS or RHEL 8.pdf" },
+      { "title": "Duenas_Hands-on Activity 4.1", "summary": "Ansible Basics", "file": "Duenas_Hands-on Activity 4.1: Ansible Basics.pdf" }
     ],
-    "midterm": [],
-    "finals": []
+    "midterm": [
+      { "title": "Duenas_Hands-on Activity 5.1", "summary": "Implement Ansible roles in playbooks", "file": "Duenas_Hands-on Activity 5.1: Implement Ansible roles in playbooks.pdf" },
+      { "title": "Duenas_Hands-On Activity 6.1", "summary": "Targeting Specific Nodes", "file": "Duenas_Hands-On Activity 6.1: Targeting Specific Nodes.pdf" },
+      { "title": "Duenas_Hands-on Activity 7.1", "summary": "Managing Files and Creating Roles in Ansible", "file": "Duenas_Hands-on Activity 7.1 Managing Files and Creating Roles in Ansible.pdf" },
+      { "title": "Duenas_Hands-on Activity 8.1", "summary": "Install, Configure, and Manage Enterprise Availability Monitoring via Ansible", "file": "Duenas_Hands-on Activity 8.1.pdf" }
+    ],
+    "finals": [
+      { "title": "Duenas_Hands-on Activity 10.1", "summary": "Install, Configure, and Manage Enterprise Log Monitoring", "file": "Duenas_Hands-on Activity 10.1: Install, Configure and Manage Enterprise Log Monitoring via Ansible.pdf" },
+      { "title": "Duenas_Hands-on Activity 11", "summary": "Containerization", "file": "Duenas_Hands-on Activity 11: Containerization.pdf" },
+      { "title": "Duenas_Hands-on Activity 12.1", "summary": "Build a Sample Web App in a Docker Container.", "file": "Duenas_Hands-on Activity 12.1 Build a Sample Web App in a Docker Container.pdf" }
+    ]
   },
   "exams": {
-    "prelim": { "summary": "Exam notes.", "file": "prelim-exam.pdf" },
-    "midterm": {},
-    "final": {}
+    "prelim": { "summary": "Prelim Skills Exam", "file": "Exam_Duenas_Prelim.pdf" },
+    "midterm": { "summary": "Midterm Skills Exam", "file": "Exam_Duenas_Midterm.pdf" },
+    "final": { "summary": "Final Skills Exam", "file": "Exam_Duenas_Final.pdf" }
   },
-  "reflection": "Reflection and learnings here."
+  "reflection": "Within this semester, I learn about automating, ansible, containerization, and so much more."
 }
