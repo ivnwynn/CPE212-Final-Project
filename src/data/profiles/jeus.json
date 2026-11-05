@@ -5,6 +5,7 @@
   "role": "Your Jungle here",
   "bio": "Im short.",
   "photo": "/photos/jeus.jpg",
+  "hoa":{
    "prelim": [
       { "title": "Hands-on Activity 1.1", "summary": "Creating Virtual Machines", "file": "1 (1).pdf" },
       { "title": "Hands-on Activity 4.1", "summary": "Ansible Basics ", "file": "hoa4.docx.pdf" }
