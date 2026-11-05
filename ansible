@@ -10,3 +10,4 @@
     src: ../Dockerfile
     dest: /opt/portfolio-app/Dockerfile
     mode: '0644'
+  
