@@ -1,0 +1,37 @@
+# tasks file for roles/docker_run
+
+- name: Query current local Git commit short hash
+  delegate_to: localhost
+  become: false
+  ansible.builtin.command: git rev-parse --short HEAD
+  register: git_commit_run
+  changed_when: false
+  failed_when: false
+  run_once: true
+  when: app_image_tag == app_image_default_tag
+
+- name: Set dynamic image tag fact for container launch
+  ansible.builtin.set_fact:
+    app_image_tag: "v-{{ git_commit_run.stdout }}"
+  when:
+    - git_commit_run is defined
+    - git_commit_run.rc is defined and git_commit_run.rc == 0
+    - git_commit_run.stdout is defined and git_commit_run.stdout != ""
+
+- name: Open port on CentOS firewall
+  ansible.posix.firewalld:
+    port: "{{ app_host_port }}/tcp"
+    permanent: true
+    state: enabled
+    immediate: true
+  when: ansible_distribution == "CentOS"
+
+- name: Run portfolio container
+  community.docker.docker_container:
+    name: "{{ app_container_name }}"
+    image: "{{ app_image_name }}:{{ app_image_tag }}"
+    state: started
+    restart_policy: "{{ app_restart_policy }}"
+    timeout: 180
+    published_ports:
+      - "{{ app_host_port }}:{{ app_container_port }}"
