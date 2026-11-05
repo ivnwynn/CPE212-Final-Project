@@ -1,22 +1,31 @@
-{
   "id": "ivan",
   "order": 4,
-  "name": "Ivan",
-  "role": "Your role here",
-  "bio": "Short bio here.",
+  "name": "Ivan Wayne San Juan",
+  "role": "Co-Team Leader",
+  "bio": "Aspiring pentester | CTF player | Always learning",
   "photo": "/photos/ivan.jpg",
   "hoa": {
     "prelim": [
-      { "title": "HOA 1", "summary": "What you did.", "file": "prelim-hoa1.pdf" },
-      { "title": "HOA 2", "summary": "What you did.", "file": "prelim-hoa2.pdf" }
+      { "title": "HOA 1", "summary": "Configured VMs, hostnames, and established SSH connectivity.", "file": "hoa1.1.pdf" },
+      { "title": "HOA 2", "summary": "Set up SSH key authentication and initialized a Git repository.", "file": "hoa2.1.pdf" },
+      { "title": "HOA 3", "summary": "Installed CentOS Stream 9 and configured the SSH server.", "file": "hoa3.1.pdf" },
+      { "title": "HOA 4", "summary": "Executed ad-hoc commands and deployed Apache via an Ansible playbook.", "file": "hoa4.1.pdf" }
     ],
-    "midterm": [],
-    "finals": []
+    "midterm": [
+      { "title": "HOA 5", "summary": "Used `when` conditionals for OS-specific package installations.", "file": "hoa5.1.pdf" },
+      { "title": "HOA 6", "summary": "Organized configurations into Ansible roles and utilized tags.", "file": "hoa6.1.pdf" },
+      { "title": "HOA 8", "summary": "Created an Ansible role to deploy and configure Nagios monitoring.", "file": "hoa8.1.pdf" }
+    ],
+    "finals": [
+      { "title": "HOA 10", "summary": "Built roles to deploy the Elastic Stack across separate hosts.", "file": "hoa10.1.pdf" },
+      { "title": "HOA 11", "summary": "Installed Docker and automated container image building via playbook.", "file": "hoa11.1.pdf" },
+      { "title": "HOA 12", "summary": "Created a bash script to build and run a containerized Flask app.", "file": "hoa12.1.pdf" }
+    ]
   },
   "exams": {
-    "prelim": { "summary": "Exam notes.", "file": "prelim-exam.pdf" },
-    "midterm": {},
-    "final": {}
+    "prelim": { "summary": "Configured Ansible inventory and ran basic playbooks.", "file": "Prelim Exam_San Juan" },
+    "midterm": { "summary": "Created a playbook to install Prometheus and configure its user.", "file": "CPE212_Midterm_Exam"},
+    "final": { "summary": "Deployed enterprise services and monitoring via GitHub-hosted Ansible roles.", "file": "Final Hands-on Skill Exam"}
   },
-  "reflection": "Reflection and learnings here."
+  "reflection": "Throughout this course, I progressed from manual server setups to fully automating complex infrastructure. Troubleshooting Ansible roles and deploying multi-tier services like the Elastic Stack and Docker significantly improved my system administration and configuration management skills."
 }
