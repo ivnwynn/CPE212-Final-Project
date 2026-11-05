@@ -1,6 +1,7 @@
-  "id": "ivan",
+ {
+ "id": "ivan",
   "order": 4,
-  "name": "Ivan Wayne San Juan",
+  "name": "Ivan",
   "role": "Co-Team Leader",
   "bio": "Aspiring pentester | CTF player | Always learning",
   "photo": "/photos/ivan.jpg",
