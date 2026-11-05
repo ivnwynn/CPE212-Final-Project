@@ -29,5 +29,5 @@
     "midterm": { "summary": "Midterm Exam Skills ", "file": "Andoy_Midterm Skills Exam .docx-1.pdf"},
     "final": { "summary": "Final Exam Skills ", "file": "Andoy_Final Hands-on Skills Exam.docx (1).pdf" }
   },
-  "reflection": "Reflection and learnings here."
+  "reflection": "I have learned to use docker and ansible"
 }
