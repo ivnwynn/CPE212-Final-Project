@@ -2,21 +2,28 @@
   "id": "jeus",
   "order": 2,
   "name": "Jeus",
-  "role": "Your role here",
-  "bio": "Short bio here.",
+  "role": "Your Jungle here",
+  "bio": "Im short.",
   "photo": "/photos/jeus.jpg",
-  "hoa": {
-    "prelim": [
-      { "title": "HOA 1", "summary": "What you did.", "file": "prelim-hoa1.pdf" },
-      { "title": "HOA 2", "summary": "What you did.", "file": "prelim-hoa2.pdf" }
+   "prelim": [
+      { "title": "Hands-on Activity 1.1", "summary": "Creating Virtual Machines", "file": "1 (1).pdf" },
+      { "title": "Hands-on Activity 4.1", "summary": "Ansible Basics ", "file": "hoa4.docx.pdf" }
+      
     ],
-    "midterm": [],
-    "finals": []
+    "midterm": [
+      { "title": "Hands-on Activity 6.1", "summary": "Targeting Specific Nodes", "file": "Pizarrohoa6.pdf"},
+      { "title": "Hands-on Activity 7.1", "summary": "Managing Files and Creating Roles in Ansible", "file": "hoa7.1 (1).pdf"}
+    
+    ],
+    "finals": [
+       { "title": "Hands-on Activity 11.1", "summary": "Containerization", "file": "HOA11.pdf"},
+        { "title": "Hands-on Activity 12.1", "summary": "Build a Sample Web App in a Docker Container", "file": "HOA 12 (1).pdf"}
+    ]
   },
   "exams": {
-    "prelim": { "summary": "Exam notes.", "file": "prelim-exam.pdf" },
-    "midterm": {},
-    "final": {}
+    "prelim": { "summary": "Prelim Exam Skills ", "file": " pIZARRO exam.docx.pdf" },
+    "midterm": { "summary": "Midterm Exam Skills ", "file": "MIDTERMS EXAM.pdf"},
+    "final": { "summary": "Final Exam Skills ", "file": "FE_PIZARRO.pdf" }
   },
-  "reflection": "Reflection and learnings here."
-}
+  "reflection": "I have learned to manage servers and containers using ansible and docker"
+
